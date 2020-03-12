@@ -1,0 +1,98 @@
+#title{
+    width: 100%;
+    text-shadow: rgb(100, 84, 84) 6px 3px 4px;
+    color: rgb(40, 158, 212);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pictureBox{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    left: 100px;
+}
+
+#pictureShow {
+    position: absolute;
+    display: flex;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+    z-index: 10;
+    border: 1px blue solid;
+}
+
+#picture1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+#picture2, #picture3{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.ps2{
+    position: relative;
+    transform: translateY(20px) translateX(150px);
+    /* background-color: black; */
+    height: 60px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    background-color: teal;
+}
+
+#ps22{
+    display: flex; 
+    flex-direction: row; 
+    /* position: relative; */
+    width: auto;
+}
+
+#pl{
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 2;
+    color: white;
+}
+
+#pr{
+    position: relative;
+    /* display: flex; */
+    font-size: 25px;
+    font-weight: 500;
+    height: 100%;
+    /* background-color: orchid; */
+}
+
+#prt{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+#bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    z-index: -1;
+    /* transform: translateY(-100%); */
+    border-radius: 10%;
+    top: 0;
+}
