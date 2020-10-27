@@ -1,7 +1,7 @@
 const compareEunm = {
   more: '>',
   less: '<',
-  equal: '='
+  equal: '=',
 }
 
 /**
